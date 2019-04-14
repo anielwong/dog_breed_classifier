@@ -1,7 +1,37 @@
 # Dog Breed Classification
 The goal of this project is to build a pipeline to process real-world, user-supplied images in the case of dog breed images classification. Given an image of a dog or a human, the algorithm will identify an estimate of its canine’s breed.
 
+This project is based on the [Machine Learning Engineer Udacity Course](https://eu.udacity.com/course/machine-learning-engineer-nanodegree--nd009).
 
+## Project Highlights
+This project is designed to give a hands-on experience with Convolutional Neural Network and how to build a pipeline to process real-world and user-supplied images.
+
+Things learned by completing the project:
+
+	How to build a pipeline to process real-world and user-supplied images
+	How to engineer a real-world application that involves solving many problems without a perfect answer
+	How to create an imperfect solution will nonetheless creating a fun user experience
+
+This project contains several files:
+
+    dog_breed.ipynb: This is the main file where the project is performed.
+    dogImages : This folder contain dog images with which the CNN will train and test on.
+    lfw : This folder contain human images.
+    haarcascades : This folder contain OpenCV's implementation of [Haar feature-based cascade classifiers to detect human faces](http://docs.opencv.org/trunk/d7/d8b/tutorial_py_face_detection.html) in images.
+    extract_bottleneck_features.py : This file is used to obtain the bottleneck features corresponding to the chosen CNN architecture.
+    
+## Software and Libraries
+This project uses the following software and Python libraries:
+
+- [Python](https://www.python.org/download/releases/3.0/)
+- [NumPy](http://www.numpy.org/)
+- [pandas](http://pandas.pydata.org/)
+- [scikit-learn](http://scikit-learn.org/stable/)(v0.17)
+- [matplotlib](http://matplotlib.org/)
+
+The softwares will need to be installed and ready to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html).
+
+If Python is not installed yet, it is highly recommended to install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. 
 
 ## Project Instructions
 
