@@ -1,4 +1,6 @@
 # Dog Breed Classification
+
+## Project Overview
 The goal of this project is to build a pipeline to process real-world, user-supplied images in the case of dog breed images classification. Given an image of a dog or a human, the algorithm will identify an estimate of its canine’s breed.
 
 This project is based on the [Machine Learning Engineer Udacity Course](https://eu.udacity.com/course/machine-learning-engineer-nanodegree--nd009).
@@ -15,10 +17,10 @@ Things learned by completing the project:
 This project contains several files:
 
     dog_breed.ipynb: This is the main file where the project is performed.
+    extract_bottleneck_features.py : This file is used to obtain the bottleneck features corresponding to the chosen CNN architecture.
     dogImages : This folder contain dog images with which the CNN will train and test on.
     lfw : This folder contain human images.
-    haarcascades : This folder contain OpenCV's implementation of [Haar feature-based cascade classifiers to detect human faces](http://docs.opencv.org/trunk/d7/d8b/tutorial_py_face_detection.html) in images.
-    extract_bottleneck_features.py : This file is used to obtain the bottleneck features corresponding to the chosen CNN architecture.
+    haarcascades : This folder contain OpenCV's implementation of Haar feature-based cascade classifiers to detect human faces in images.
     
 ## Software and Libraries
 This project uses the following software and Python libraries:
