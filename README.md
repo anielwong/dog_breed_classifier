@@ -26,12 +26,12 @@ cd dog_breed_classifier
 	- __Linux__ (to install with __GPU support__, change `requirements/dog-linux.yml` to `requirements/dog-linux-gpu.yml`): 
 	```
 	conda env create -f requirements/dog-linux.yml
-	source activate dog-project
+	source activate dog_breed_classifier
 	```  
 	- __Mac__ (to install with __GPU support__, change `requirements/dog-mac.yml` to `requirements/dog-mac-gpu.yml`): 
 	```
 	conda env create -f requirements/dog-mac.yml
-	source activate dog-project
+	source activate dog_breed_classifier
 	```  
 	**NOTE:** Some Mac users may need to install a different version of OpenCV
 	```
@@ -40,15 +40,15 @@ cd dog_breed_classifier
 	- __Windows__ (to install with __GPU support__, change `requirements/dog-windows.yml` to `requirements/dog-windows-gpu.yml`):  
 	```
 	conda env create -f requirements/dog-windows.yml
-	activate dog-project
+	activate dog_breed_classifier
 	```
 
 7. (Optional) **If you are running the project on your local machine (and not using AWS)** and Step 6 throws errors, try this __alternative__ step to create your environment.
 
 	- __Linux__ or __Mac__ (to install with __GPU support__, change `requirements/requirements.txt` to `requirements/requirements-gpu.txt`): 
 	```
-	conda create --name dog-project python=3.5
-	source activate dog-project
+	conda create --name dog_breed_classifier python=3.5
+	source activate dog_breed_classifier
 	pip install -r requirements/requirements.txt
 	```
 	**NOTE:** Some Mac users may need to install a different version of OpenCV
@@ -78,18 +78,17 @@ sudo python3 -m pip install -r requirements/requirements-gpu.txt
 		python -c "from keras import backend"
 		```
 
-10. (Optional) **If you are running the project on your local machine (and not using AWS)**, create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `dog-project` environment. 
+10. (Optional) **If you are running the project on your local machine (and not using AWS)**, create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `dog_breed_classifier environment. 
 ```
 python -m ipykernel install --user --name dog_breed_classifier --display-name "dog_breed_classifier"
 ```
 
 11. Open the notebook.
 ```
-jupyter notebook dog_app.ipynb
+jupyter notebook dog_breed_classifier.ipynb
 ```
 
-12. (Optional) **If you are running the project on your local machine (and not using AWS)**, before running code, change the kernel to match the dog-project environment by using the drop-down menu (**Kernel > Change kernel > dog-project**). Then, follow the instructions in the notebook.
+12. (Optional) **If you are running the project on your local machine (and not using AWS)**, before running code, change the kernel to match the dog_breed_classifier environment by using the drop-down menu (**Kernel > Change kernel > dog_breed_classifier**). Then, open the notebook.
 
-__NOTE:__ While some code has already been implemented to get you started, you will need to implement additional functionality to successfully answer all of the questions included in the notebook. __Unless requested, do not modify code that has already been included.__
 
 
