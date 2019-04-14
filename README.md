@@ -9,15 +9,15 @@ The goal of this project is to build a pipeline to process real-world, user-supp
 
 1. Clone the repository and navigate to the downloaded folder.
 ```	
-git clone https://github.com/udacity/dog-project.git
-cd dog-project
+git clone https://github.com/anielwong/dog_breed_classifier.git
+cd dog_breed_classifier
 ```
 
-2. Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip). Unzip the folder and place it in the repo, at location `path/to/dog-project/dogImages`. 
+2. Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip). Unzip the folder and place it in the repo, at location `path/to/dog_breed_classifier/dogImages`. 
 
-3. Download the [human dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip). Unzip the folder and place it in the repo, at location `path/to/dog-project/lfw`. If you are using a Windows machine, you are encouraged to use [7zip](http://www.7-zip.org/) to extract the folder. 
+3. Download the [human dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip). Unzip the folder and place it in the repo, at location `path/to/dog_breed_classifier/lfw`. If you are using a Windows machine, you are encouraged to use [7zip](http://www.7-zip.org/) to extract the folder. 
 
-4. Download the [VGG-16 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz) for the dog dataset.  Place it in the repo, at location `path/to/dog-project/bottleneck_features`.
+4. Download the [VGG-16 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz) for the dog dataset.  Place it in the repo, at location `path/to/dog_breed_classifier/bottleneck_features`.
 
 5. (Optional) __If you plan to install TensorFlow with GPU support on your local machine__, follow [the guide](https://www.tensorflow.org/install/) to install the necessary NVIDIA software on your system.  If you are using an EC2 GPU instance, you can skip this step.
 
@@ -57,8 +57,8 @@ cd dog-project
 	```
 	- __Windows__ (to install with __GPU support__, change `requirements/requirements.txt` to `requirements/requirements-gpu.txt`):  
 	```
-	conda create --name dog-project python=3.5
-	activate dog-project
+	conda create --name dog_breed_classifier python=3.5
+	activate dog_breed_classifier
 	pip install -r requirements/requirements.txt
 	```
 	
@@ -80,7 +80,7 @@ sudo python3 -m pip install -r requirements/requirements-gpu.txt
 
 10. (Optional) **If you are running the project on your local machine (and not using AWS)**, create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `dog-project` environment. 
 ```
-python -m ipykernel install --user --name dog-project --display-name "dog-project"
+python -m ipykernel install --user --name dog_breed_classifier --display-name "dog_breed_classifier"
 ```
 
 11. Open the notebook.
