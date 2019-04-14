@@ -19,9 +19,11 @@ cd dog_breed_classifier
 
 4. Download the [VGG-16 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz) for the dog dataset.  Place it in the repo, at location `path/to/dog_breed_classifier/bottleneck_features`.
 
-5. (Optional) __If you plan to install TensorFlow with GPU support on your local machine__, follow [the guide](https://www.tensorflow.org/install/) to install the necessary NVIDIA software on your system.  If you are using an EC2 GPU instance, you can skip this step.
+5. Download the [Xception bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogXceptionData.npz) for the dog dataset.  Place it in the repo, at location `path/to/dog_breed_classifier/bottleneck_features`.
 
-6. (Optional) **If you are running the project on your local machine (and not using AWS)**, create (and activate) a new environment.
+6. (Optional) __If you plan to install TensorFlow with GPU support on your local machine__, follow [the guide](https://www.tensorflow.org/install/) to install the necessary NVIDIA software on your system.  If you are using an EC2 GPU instance, you can skip this step.
+
+7. (Optional) **If you are running the project on your local machine (and not using AWS)**, create (and activate) a new environment.
 
 	- __Linux__ (to install with __GPU support__, change `requirements/dog-linux.yml` to `requirements/dog-linux-gpu.yml`): 
 	```
@@ -43,7 +45,7 @@ cd dog_breed_classifier
 	activate dog_breed_classifier
 	```
 
-7. (Optional) **If you are running the project on your local machine (and not using AWS)** and Step 6 throws errors, try this __alternative__ step to create your environment.
+8. (Optional) **If you are running the project on your local machine (and not using AWS)** and Step 6 throws errors, try this __alternative__ step to create your environment.
 
 	- __Linux__ or __Mac__ (to install with __GPU support__, change `requirements/requirements.txt` to `requirements/requirements-gpu.txt`): 
 	```
@@ -62,12 +64,12 @@ cd dog_breed_classifier
 	pip install -r requirements/requirements.txt
 	```
 	
-8. (Optional) **If you are using AWS**, install Tensorflow.
+9. (Optional) **If you are using AWS**, install Tensorflow.
 ```
 sudo python3 -m pip install -r requirements/requirements-gpu.txt
 ```
 	
-9. Switch [Keras backend](https://keras.io/backend/) to TensorFlow.
+10. Switch [Keras backend](https://keras.io/backend/) to TensorFlow.
 	- __Linux__ or __Mac__: 
 		```
 		KERAS_BACKEND=tensorflow python -c "from keras import backend"
@@ -78,17 +80,17 @@ sudo python3 -m pip install -r requirements/requirements-gpu.txt
 		python -c "from keras import backend"
 		```
 
-10. (Optional) **If you are running the project on your local machine (and not using AWS)**, create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `dog_breed_classifier environment. 
+11. (Optional) **If you are running the project on your local machine (and not using AWS)**, create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `dog_breed_classifier environment. 
 ```
 python -m ipykernel install --user --name dog_breed_classifier --display-name "dog_breed_classifier"
 ```
 
-11. Open the notebook.
+12. Open the notebook.
 ```
 jupyter notebook dog_breed_classifier.ipynb
 ```
 
-12. (Optional) **If you are running the project on your local machine (and not using AWS)**, before running code, change the kernel to match the dog_breed_classifier environment by using the drop-down menu (**Kernel > Change kernel > dog_breed_classifier**). Then, open the notebook.
+13. (Optional) **If you are running the project on your local machine (and not using AWS)**, before running code, change the kernel to match the dog_breed_classifier environment by using the drop-down menu (**Kernel > Change kernel > dog_breed_classifier**). Then, open the notebook.
 
 
 
